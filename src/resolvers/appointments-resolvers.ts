@@ -28,7 +28,7 @@ export class AppointmentsResolvers {
   @FieldResolver(() => Customer)
   async customer(@Root() appointment: Appointment) {
     return {
-      name: 'Pedro'
+      name: 'Joyce'
     }
   }
 }
